@@ -10,5 +10,5 @@ COPY ./app/*.py /
 # Exposing ports is a way of documenting which ports are used, but does not actually map or open any ports. Exposing ports is optional.
 # publish the port using -p
 EXPOSE 8000
-
+# execute python server
 CMD ["python", "main.py"]
